@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content=" Code Blizzards and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.87.0">
+    <title>Code Blizzards</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<title></title>
+	<style>
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebar-container {
+  position: fixed;
+  width: 220px;
+  height: 100%;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.content-container {
+  padding-top: 20px;
+}
+
+.sidebar-logo {
+  padding: 10px 15px 10px 30px;
+  font-size: 20px;
+  background-color: #2574A9;
+}
+
+.sidebar-navigation {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  position: relative;
+}
+
+.sidebar-navigation li {
+  background-color: transparent;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  line-height: 20px;
+}
+
+.sidebar-navigation li a {
+  padding: 10px 15px 10px 30px;
+  display: block;
+  color: #fff;
+}
+
+.sidebar-navigation li .fa {
+  margin-right: 10px;
+}
+
+.sidebar-navigation li a:active,
+.sidebar-navigation li a:hover,
+.sidebar-navigation li a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.sidebar-navigation li::before {
+  background-color: #2574A9;
+  position: absolute;
+  content: '';
+  height: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transition: width 0.2s ease-in;
+  transition: width 0.2s ease-in;
+  width: 3px;
+  z-index: -1;
+}
+
+.sidebar-navigation li:hover::before {
+  width: 100%;
+}
+
+.sidebar-navigation .header {
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: #151515;
+  padding: 10px 15px 10px 30px;
+}
+
+.sidebar-navigation .header::before {
+  background-color: transparent;
+}
+
+.content-container {
+  padding-left: 220px;
+  margin-top: 65px;
+}
+
+</style>
+</head>
+<body style="background-color: darkblue;">
+	<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <img src="C:/Users/Dell/OneDrive/Desktop/project/bootstrap-5.1.0-examples/carousel/images/cb.jpg" class="d-block" alt="..." style="height:50px; width:50px; margin-right: 10px;">
+      <a class="navbar-brand" href="#">Code Blizzards</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0" style="margin-left: 50px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Programming</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Technology</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<main>	
+<div class="sidebar-container">
+  <div class="sidebar-logo" style="text-align: center;">
+    Languages
+  </div>
+  <ul class="sidebar-navigation">
+    <li>
+      <a href="#">
+        <img src = "C:/Users/Dell/OneDrive/Desktop/project/bootstrap-5.1.0-examples/carousel/images/c-program-1.png" 
+        type = "image/x-icon" style="height:60px; width:60px;" class="center"></img>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <img src = "C:/Users/Dell/OneDrive/Desktop/project/bootstrap-5.1.0-examples/carousel/images/c-plus-logo-1.png" 
+        type = "image/x-icon" style="height:70px; width:70px;" class="center"></img>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <img src = "C:/Users/Dell/OneDrive/Desktop/project/bootstrap-5.1.0-examples/carousel/images/java-1.png" 
+        type = "image/x-icon" style="height:60px; width:60px;" class="center"></img>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <img src = "C:/Users/Dell/OneDrive/Desktop/project/bootstrap-5.1.0-examples/carousel/images/python-1.png" 
+        type = "image/x-icon" style="height:70px; width:70px;" class="center"></img>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <img src = "C:/Users/Dell/OneDrive/Desktop/project/bootstrap-5.1.0-examples/carousel/images/csharp.png" 
+        type = "image/x-icon" style="height:60px; width:60px;" class="center"></img>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <img src = "C:/Users/Dell/OneDrive/Desktop/project/bootstrap-5.1.0-examples/carousel/images/js-1.png" 
+        type = "image/x-icon" style="height:70px; width:150px;" class="center"></img>
+      </a>
+    </li>
+    <br><br><br><br>
+  </ul>
+</div>
+
+<div class="content-container">
+
+  <div class="container-fluid">
+
+    <!-- Main component for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div style="background-color: palegreen; padding-top: 0.1em; padding-bottom: 0.1em;"><h1 style="text-align: center; color:darkblue;"><em>Getting started with programming</em></h1></div><br><br>
+      <h1 style="color:red; margin-left: 15px;">Why you should learn programming?</h1><br>
+      <p style="color: yellow; font-size: 20px; margin-left: 15px;">If you are thinking about getting your computer programming degree, you will need to know about programming languages, classes, tasks and instructions. You will build various applications, software or programs. Additionally, you can create applications that need to work on various operating systems such as iOS or Android. Those programs have different functions and categories, which means they depend on different programming languages.
+
+All applications on the web are run using a computer program. The language used in each application range from similar to very different. Also, some languages create backlash, so you don't even know they exist. Learning computer programming languages allows you to become a master of a wide variety of computer programs.</p>
+<p style="color: yellow; font-size: 20px; margin-left: 15px;">Behind everything we see on the internet—every word, image, chart, layout, etc.. there is someone who programmed it to look as such to us. Even the website you are looking now is programmed by someone. Here’s are some reasons why to learn programming.</p><br>
+ <img src = "C:/Users/Dell/OneDrive/Desktop/project/bootstrap-5.1.0-examples/carousel/images/why-prog.jpg" 
+        type = "image/x-icon" style="height:400px; width:90%;" class="center"></img><br><br>
+        <p style="color: white; font-size: 30px; margin-left: 15px;">1. Programming ensures a good career opportunities</p>
+        <p style="color: yellow; font-size: 20px; margin-left: 15px;">We live in an age of technology, and technological advancement is nowhere near staggering. As the use of technology devices grows every year, there will always be a great need for the system. The U.S. Bureau of Labor Statistics said that over the next decade, computer programming jobs would be more widely available to those outside the United States. This is because companies are considering hiring people around the world because they will pay them lower wages.
+
+However, projects such as software development, web development, computer program analysts, and others reflect a positive work ethic over the next decade. Their average growth is from 9% to 21% in software development activities.</p>
+
+<p style="color: white; font-size: 30px; margin-left: 15px;">2. Helps to develop problem solving and technical skills and makes you creative</p>
+<p style="color: yellow; font-size: 20px; margin-left: 15px;">In the real world, it is frequently said that writing code is all about to find the solution of problem that we arise, and programming be obliged to solving issues arises for us. Learning programs have in-general codes and determine how to address the issues that arise during coding and to find solutions to them. When you try to solve these problems, it becomes more and more helpful. You can also start using this mindset to solve problems in various aspects of your professional life and not just when entering codes.<br>Not all industries will give you the opportunity to use your technical and creative skills as programs will. This may be due to the nature of the activity. It focuses on identifying problems and solving them. However, there will not always be the same problems that need to be solved, which is why you will always find solutions when you find new solutions. This makes planning a very difficult and exciting task.</p>
+
+<p style="color: white; font-size: 30px; margin-left: 15px;">3. Opportunities to get a job with consistency and flexibility in the workplace</p>
+<p style="color: yellow; font-size: 20px; margin-left: 15px;">As an IT professional, you will be working closely with software developers and web developers. Good communication and efficiency, understanding the process will help you do your job better. Although you may not use daily planning skills, having a background in this important area of technology can make you valuable to your company's IT department.
+Since work requires only a computer with an internet connection, employees often have the opportunity to work remotely. That being said, that depends on company policy, but many offer such an option. In addition, if you work as a freelancer, your work will always be done remotely.
+
+This benefit makes the program a much-needed activity for people who want to balance their work and family life and feel like traveling by wasting their precious time they could have used it differently. It also allows them to apply for jobs across the country without the need to relocate and worry about office space.</p>
+
+<p style="color: white; font-size: 30px; margin-left: 15px;">4. Understand working of software</p>
+<p style="color: yellow; font-size: 20px; margin-left: 15px;">When we use a computer, we interact with it using a mouse and keyboard, but we do not stop and think about the operating system in the background. Editing will familiarize you with software, programs, devices, and websites and will help you understand them. As a result, you will be able to capture and use new technological tools as quickly as possible.</p><br>
+ <img src = "C:/Users/Dell/OneDrive/Desktop/project/bootstrap-5.1.0-examples/carousel/images/softapp.jpg" 
+        type = "image/x-icon" style="height:350px; width:75%;" class="center"></img><br><br>
+
+<p style="color: white; font-size: 30px; margin-left: 15px;">5. Ability to Earn Higher Income</p>
+<p style="color: yellow; font-size: 20px; margin-left: 15px;">Money can be a catalyst for a lot of work and a planning fee is no different. Most of the jobs you can get with planning skills tend to cost more than you normally would. While the salary for the programmer depends on the state and the type of work, the average salary for a computer program is $ 84,280, and the average salary for a software developer is $ 103,620.</p>
+
+<p style="color: white; font-size: 30px; margin-left: 15px;">6. Teaching Perseverance</p>
+<p style="color: yellow; font-size: 20px; margin-left: 15px;">Learning a computer program teaches you to see problems in the light of solutions. For all the problems you may face, you begin to think of ways to solve them. The fruitful results that come from thinking and solving problems will give you a good idea, and it will affect you so that you can deal with the problem no matter how difficult it is. You are determined to find a way to find a solution, in this way you become a person driven by a solution.
+Computer programs, like any other software, give you the opportunity to put your ideas digitally such as creating an app. However, creating an app is not an easy task as it requires effort, time, and money. While in some cases, you could pay an engineer to implement your plans and ideas, since being a programmer yourself, you can save your money and make the app the way you want it to. Especially since, let's be honest, no one can use your exact idea of what you want it to be.</p>
+
+<p style="color: white; font-size: 30px; margin-left: 15px;">7. Develops start-up mindset</p>
+<p style="color: yellow; font-size: 20px; margin-left: 15px;">If starting your own business is something you are interested in, knowing the basics of programming and coding is essential. In general, it’s easier to start a company if you have this skill set. You’ll be able to execute ideas yourself without paying anyone, as well as understand the work that programmers do once you are in a position to hire them. Programming skills also let you fine-tune the technology that is used in your business and create online sales channel right away.
+
+Becoming self-employed is the path that many programmers eventually choose. Knowing how to code allows you to look into opening a business of your own. This could be an online shop, having your own web designing company, building mobile applications, offering online coding courses and tutorials, and many more. The opportunities are endless. What makes it even better is that the demand for these kinds of businesses is also high.
+
+Programming is a skill that comes with numerous benefits. Some of the advantages that come with knowing code are a guaranteed job, getting to create interesting applications, developing problem-solving skills, and sometimes even the opportunity to work from home.</p>
+<br>
+
+<!--next question--> 
+<h1 style="color:red; margin-left: 15px;">What are the important computer programming languages to learn?</h1><br>
+      <p style="color: yellow; font-size: 20px; margin-left: 15px;">Computer programming changes and so do the languages used to improve software and applications. Different programming languages are used in different stages of development. Some languages are best for beginners, while others are more suitable for advanced computer programs. In addition, some languages are suitable for use in a variety of applications, such as web applications, mobile applications, and distributed applications.
+<br>
+A good way to determine which programming languages you need to learn is to know what skills you will need to be a successful computer developer.
+<br><br>
+<img src = "C:/Users/Dell/OneDrive/Desktop/project/bootstrap-5.1.0-examples/carousel/images/dev.jpg" 
+        type = "image/x-icon" style="height:350px; width:75%;" class="center"></img><br><br>
+The most popular and important computer programming languages according to need are:</p>
+<li style="color: white; font-size: 20px; margin-left: 50px;">Python</li>
+<li style="color: white; font-size: 20px; margin-left: 50px;">Java</li>
+<li style="color: white; font-size: 20px; margin-left: 50px;">C/C++</li>
+<li style="color: white; font-size: 20px; margin-left: 50px;">Swift</li>
+<li style="color: white; font-size: 20px; margin-left: 50px;">C#</li><br>
+<p style="color: yellow; font-size: 20px; margin-left: 15px;">Each of these languages is based on the use and ease of learning. Python is considered to be the best startup language. Easy to read and distribute. Java has been a popular language for decades. Official language for Android apps. C and C ++ are considered the basic languages for most operating systems and file systems. JavaScript is popular with advanced developers because it helps to make applications look clean and clear to the user. Swift is a native language of iOS and has been growing in popularity as Mac and Apple products become industry favorites.</p>
+<br>
+<h1 style="color:red; margin-left: 15px;">Applications of programming:-</h1><br>
+<p style="color: darkblue; font-size: 30px; margin-left: 15px; text-align: center; background-color: palegreen;"> <bold>“The only way to learn a new programming language is by writing programs in it.” — Dennis Ritchie</bold></p><br>
+<img src = "C:/Users/Dell/OneDrive/Desktop/project/bootstrap-5.1.0-examples/carousel/images/app-prog.png" 
+        type = "image/x-icon" style="height:350px; width:75%;" class="center"></img><br><br>
+<p style="color: yellow; font-size: 20px; margin-left: 15px;">The world has been developing at an astonishing rate, and a strong proportion of that debt goes to developers. In case you haven't noticed, programming has become all the rage in recent years.
+
+Everyone is trying to get into the development area as it offers the most rewarding career paths, such as web development, data science, artificial intelligence, and more.<br>The use of programming languages is not limited to the development of operating systems and applications. They are also used for GUI development, IDE development, etc.<br>Embrace yourself, now I'll tell you some fun real world applications of programming languages:-</p>
+
+<p style="color: white; font-size: 30px; margin-left: 15px;">1. Operating System</p>
+<p style="color: yellow; font-size: 20px; margin-left: 15px;">Have you wondered of writing your own operating system? If yes, with the help of C programming language, you can write your own operating system. Windows Kernel, Linux Kernel and Apple's OS kernel are heavily coded at C.</p>
+<p style="color: white; font-size: 30px; margin-left: 15px;">2. GUI based applications</p>
+<p style="color: yellow; font-size: 20px; margin-left: 15px;">C++ can be used to develop most of the GUI based and desktop applications easily as it has got the required features. Most of the applications of the adobe systems including Illustrator, Photoshop, etc. are developed using C++.</p>
+
+<p style="color: white; font-size: 30px; margin-left: 15px;">3. Mobile app developement</p>
+<p style="color: yellow; font-size: 20px; margin-left: 15px;">The Java application language can be considered as the official language for mobile application development. Most Android apps build using Java. The most popular development of the Android IDE Android Studio app also uses Java to create Android applications. So, if you are already familiar with Java, it will be much easier to upgrade to Android apps. The most popular Android applications Signal and Twitter are made using Java.</p>
+
+<p style="color: white; font-size: 30px; margin-left: 15px;">4.  AI and Machine Learning</p>
+<p style="color: yellow; font-size: 20px; margin-left: 15px;">Python is such a stable, flexible, and simple language, suitable for a variety of machine learning (ML) and artificial intelligence (AI) projects. In fact, Python is one of the most popular languages among data scientists, and there are many Python libraries and AI libraries and packages available.</p>
+
+<p style="color: white; font-size: 30px; margin-left: 15px;">5. Games</p>
+<p style="color: yellow; font-size: 20px; margin-left: 15px;">Are you interested in creating games? C # could be one of the best programming languages for games. This language is widely used to create popular fan games like Rimworld in Unity Game Engine.
+
+As long as you don't know, Unity is the most popular gaming engine available, with more than a third of the best games played in the industry. The C # integrates seamlessly with the Unity engine and can be used on almost any modern mobile device or console thanks to cross-platform technology such as Xamarin.</p>
+<br>
+<img src = "C:/Users/Dell/OneDrive/Desktop/project/bootstrap-5.1.0-examples/carousel/images/program.jpg" 
+        type = "image/x-icon" style="height:350px; width:75%;" class="center"></img><br><br>
+ <p style="color: darkblue; font-size: 30px; margin-left: 15px; text-align: center; background-color: palegreen;"> <bold>We hope we convinced you to start learning to code. Happy coding!</bold></p> 
+  </div>
+</div>
+<br>
+<br>
+</main>
+
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
